@@ -1,0 +1,39 @@
+* {
+	color: whitesmoke;
+}
+
+body {
+	background-color: lightblue;
+	font-size: 20px;
+}
+
+.button {
+	background-color: lightcoral;
+	border: none;
+	color: white;
+	padding: 7px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#api-url {
+	border: none;
+	border-bottom: 2px solid lightcoral;
+	font-size: 25px;
+	background-color: lightblue;
+}
+
+#input-container {
+	width: fit-content;
+	position: relative;
+}
+
+#api-display {
+	font-size: 25px;
+	text-align: left;
+	position: relative;
+	width: fit-content;
+	color: whitesmoke;
+}

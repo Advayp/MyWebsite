@@ -1,0 +1,130 @@
+body {
+	background-color: lightblue;
+	color: whitesmoke;
+}
+
+.header {
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	background-color: lightcoral;
+}
+
+.header #navigation {
+	height: 70px;
+}
+
+#quick-links {
+	position: relative;
+	width: fit-content;
+	left: 730px;
+	font-size: 39px;
+	top: 110px;
+}
+
+#actual-links {
+	text-align: left;
+	width: fit-content;
+	position: relative;
+	left: 730px;
+	top: 120px;
+	font-size: 39px;
+}
+
+.header #summary {
+	height: 100px;
+	top: 320px;
+}
+
+#unity-picture {
+	height: 30%;
+	width: 30%;
+	position: relative;
+	top: 150px;
+	left: 110px;
+}
+
+#react-picture {
+	height: 25%;
+	width: 25%;
+	position: relative;
+	left: 600px;
+	top: 210px;
+}
+
+#typescript-picture {
+	height: 12%;
+	width: 12%;
+	position: relative;
+	bottom: 200px;
+	left: 500px;
+}
+
+#networking-picture {
+	height: 30%;
+	width: 30%;
+	position: relative;
+	bottom: 240px;
+	right: 1200px;
+}
+
+#actual-summary {
+	text-align: left;
+	position: relative;
+	top: 70px;
+	width: fit-content;
+	left: 590px;
+	font-size: 40px;
+}
+
+#self-portrait {
+	position: relative;
+	right: 550px;
+	bottom: 200px;
+	height: 60%;
+	width: 60%;
+}
+
+#among-picture {
+	position: relative;
+	height: 30%;
+	width: 30%;
+	top: 1130px;
+	left: 1200px;
+}
+
+#skyline-logo {
+	position: relative;
+	right: 200px;
+	top: 130px;
+}
+
+#actual-links a {
+	color: whitesmoke;
+}
+
+#learning-sum {
+	height: 100px;
+	top: 520px;
+}
+
+#learning-content {
+	position: relative;
+	top: 100px;
+	text-align: left;
+	font-size: 40px;
+	left: 600px;
+	width: fit-content;
+}
+
+#cpp-picture {
+	position: relative;
+	right: 400px;
+	bottom: 300px;
+}
+
+#cs-picture {
+	position: relative;
+	height: 35%;
+	width: 35%;
+}
