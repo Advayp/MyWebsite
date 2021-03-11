@@ -1,5 +1,3 @@
-var jsonInDisplay = false;
-
 const fetchApi = () => {
 	// Some vars to reduce method chaining
 	display = document.getElementById('api-display');
@@ -16,7 +14,7 @@ const fetchApi = () => {
 					2
 				))
 		)
-		.catch((err) => (display.innerHTML = 'Invalid API'));
+		.catch((_) => (display.innerHTML = 'Invalid API'));
 
 	document.getElementById('api-url').value = '';
 };

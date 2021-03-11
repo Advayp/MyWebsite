@@ -1,0 +1,276 @@
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: lightblue;
+		color: whitesmoke;
+	}
+
+	#about-me {
+		font-size: 4vw;
+		position: relative;
+		left: 15vw;
+		top: 4vw;
+		width: max-content;
+	}
+
+	#minecraft-logo {
+		position: relative;
+		float: right;
+		right: 3vw;
+		top: 8vw;
+		width: 35%;
+		height: auto;
+	}
+
+	#fortnite-logo {
+		position: relative;
+		float: left;
+		left: 3vw;
+		top: 110px;
+		width: 40%;
+		height: auto;
+	}
+
+	#skyline-high {
+		position: relative;
+		top: 47vw;
+		left: 30vw;
+		width: 55%;
+		bottom: 5vw;
+		height: auto;
+	}
+
+	.header {
+		font-size: 6vw;
+		text-align: center;
+		width: 100%;
+		height: auto;
+		position: relative;
+		background-color: lightcoral;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+	body {
+		background-color: lightblue;
+		color: whitesmoke;
+	}
+
+	#about-me {
+		font-size: 4vw;
+		position: relative;
+		left: 15vw;
+		top: 100px;
+		width: max-content;
+	}
+
+	#minecraft-logo {
+		position: relative;
+		float: right;
+		right: 4vw;
+		top: 120px;
+		width: 35%;
+		height: auto;
+	}
+
+	#fortnite-logo {
+		position: relative;
+		float: left;
+		left: 3vw;
+		top: 110px;
+		width: 40%;
+		height: auto;
+	}
+
+	#skyline-high {
+		position: relative;
+		top: 30vw;
+		left: 20vw;
+		width: 75%;
+		height: auto;
+	}
+
+	.header {
+		font-size: 50px;
+		text-align: center;
+		width: 100%;
+		height: auto;
+		position: relative;
+		background-color: lightcoral;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+	body {
+		background-color: lightblue;
+		color: whitesmoke;
+	}
+
+	#about-me {
+		font-size: 4vw;
+		position: relative;
+		left: 15vw;
+		top: 100px;
+		width: max-content;
+	}
+
+	#minecraft-logo {
+		position: relative;
+		float: right;
+		right: 4vw;
+		top: 120px;
+		width: 35%;
+		height: auto;
+	}
+
+	#fortnite-logo {
+		position: relative;
+		float: left;
+		left: 3vw;
+		top: 110px;
+		width: 40%;
+		height: auto;
+	}
+
+	#skyline-high {
+		position: relative;
+		top: 30vw;
+		left: 20vw;
+		width: 75%;
+		height: auto;
+	}
+
+	.header {
+		font-size: 50px;
+		text-align: center;
+		width: 100%;
+		height: auto;
+		position: relative;
+		background-color: lightcoral;
+	}
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+	body {
+		background-color: lightblue;
+		color: whitesmoke;
+	}
+
+	#about-me {
+		font-size: 4vw;
+		position: relative;
+		left: 15vw;
+		top: 100px;
+		width: max-content;
+	}
+
+	#minecraft-logo {
+		position: relative;
+		float: right;
+		right: 4vw;
+		top: 120px;
+		width: 35%;
+		height: auto;
+	}
+
+	#fortnite-logo {
+		position: relative;
+		float: left;
+		left: 3vw;
+		top: 110px;
+		width: 40%;
+		height: auto;
+	}
+
+	#skyline-high {
+		position: relative;
+		top: 30vw;
+		left: 20vw;
+		width: 75%;
+		height: auto;
+	}
+
+	.header {
+		font-size: 50px;
+		text-align: center;
+		width: 100%;
+		height: auto;
+		position: relative;
+		background-color: lightcoral;
+	}
+}
+
+/* Desktop View */
+@media screen and (min-width: 1200px) {
+	@keyframes fortnite-animation {
+		0% {
+			visibility: hidden;
+			position: relative;
+			left: 100vw;
+			bottom: 7vw;
+		}
+
+		99.99% {
+			position: relative;
+			left: 57vw;
+			bottom: 7vw;
+			width: 20%;
+			height: auto;
+		}
+
+		100% {
+			visibility: show;
+		}
+	}
+
+	body {
+		background-color: lightblue;
+		color: whitesmoke;
+	}
+
+	.img-container {
+		position: relative;
+	}
+
+	#about-me {
+		font-size: 2vw;
+		position: relative;
+		left: 30vw;
+		top: 100px;
+		width: fit-content;
+	}
+
+	#minecraft-logo {
+		position: relative;
+		float: left;
+		left: 10vw;
+		bottom: 30px;
+		width: 15%;
+		height: auto;
+	}
+
+	#fortnite-logo {
+		position: relative;
+		left: 57vw;
+		bottom: 7vw;
+		width: 20%;
+		height: auto;
+		animation-name: fortnite-animation;
+		animation-duration: 3s;
+	}
+
+	#skyline-high {
+		position: relative;
+		bottom: 20vw;
+		right: 34vw;
+		width: 25%;
+		height: auto;
+	}
+
+	.header {
+		font-size: 50px;
+		position: relative;
+		text-align: center;
+		background-color: lightcoral;
+	}
+}
