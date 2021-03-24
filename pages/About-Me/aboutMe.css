@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+	font-size: 1.5vw;
+}
+
 /* Mobile View */
 @media only screen and (max-width: 600px) {
 	body {
-		background-color: lightblue;
-		color: whitesmoke;
+		background-color: whitesmoke;
+		color: black;
 	}
+
+	.nav-link {
+        font-size: 4vw;
+    }
 
 	#about-me {
 		font-size: 4vw;
@@ -46,15 +60,19 @@
 		width: 100%;
 		height: auto;
 		position: relative;
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 	}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
 	body {
-		background-color: lightblue;
-		color: whitesmoke;
+		background-color: whitesmoke;
+		color: black;
 	}
+
+	.nav-link {
+        font-size: 3.5vw;
+    }
 
 	#about-me {
 		font-size: 4vw;
@@ -96,15 +114,19 @@
 		width: 100%;
 		height: auto;
 		position: relative;
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 	}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
 	body {
-		background-color: lightblue;
-		color: whitesmoke;
+		background-color: whitesmoke;
+		color: black;
 	}
+
+	.nav-link {
+        font-size: 3vw;
+    }
 
 	#about-me {
 		font-size: 4vw;
@@ -146,14 +168,14 @@
 		width: 100%;
 		height: auto;
 		position: relative;
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 	}
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1199px) {
 	body {
-		background-color: lightblue;
-		color: whitesmoke;
+		background-color: whitesmoke;
+		color: black;
 	}
 
 	#about-me {
@@ -196,7 +218,7 @@
 		width: 100%;
 		height: auto;
 		position: relative;
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 	}
 }
 
@@ -224,8 +246,8 @@
 	}
 
 	body {
-		background-color: lightblue;
-		color: whitesmoke;
+		background-color: whitesmoke;
+		color: black;
 	}
 
 	.img-container {
@@ -271,6 +293,6 @@
 		font-size: 50px;
 		position: relative;
 		text-align: center;
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 	}
 }

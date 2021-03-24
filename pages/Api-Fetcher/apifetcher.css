@@ -1,18 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+	font-size: 1.5vw;
+}
+
 @media only screen and (max-width: 600px) {
 	* {
-		color: whitesmoke;
+		color: black;
 		font-size: 3.5vw;
 	}
 
 	body {
-		background-color: lightblue;
+		background-color: whitesmoke;
 		font-size: 20px;
-	}
+	}	
+	.nav-link {
+        font-size: 4vw;
+    }
 
 	.button {
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 		border: none;
-		color: white;
+		color: black;
 		padding: 6px 8px;
 		text-align: center;
 		text-decoration: none;
@@ -22,9 +35,9 @@
 
 	#api-url {
 		border: none;
-		border-bottom: 2px solid lightcoral;
+		border-bottom: 2px solid #e8e6e6;
 		font-size: 4vw;
-		background-color: lightblue;
+		background-color: #e8e6e6;
 	}
 
 	#input-container {
@@ -38,25 +51,29 @@
 		position: relative;
 		top: 3vw;
 		width: fit-content;
-		color: whitesmoke;
+		color: black;
 	}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
 	* {
-		color: whitesmoke;
+		color: black;
 		font-size: 2.5vw;
 	}
 
+	.nav-link {
+        font-size: 3.5vw;
+    }
+
 	body {
-		background-color: lightblue;
+		background-color: whitesmoke;
 		font-size: 20px;
 	}
 
 	.button {
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 		border: none;
-		color: white;
+		color: black;
 		padding: 6px 8px;
 		text-align: center;
 		text-decoration: none;
@@ -66,9 +83,9 @@
 
 	#api-url {
 		border: none;
-		border-bottom: 2px solid lightcoral;
+		border-bottom: 2px solid #e8e6e6;
 		font-size: 4vw;
-		background-color: lightblue;
+		background-color: #e8e6e6;
 	}
 
 	#input-container {
@@ -82,25 +99,29 @@
 		position: relative;
 		top: 3vw;
 		width: fit-content;
-		color: whitesmoke;
+		color: black;
 	}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
 	* {
-		color: whitesmoke;
+		color: black;
 		font-size: 2vw;
 	}
 
+	.nav-link {
+        font-size: 3vw;
+    }
+
 	body {
-		background-color: lightblue;
+		background-color: whitesmoke;
 		font-size: 20px;
 	}
 
 	.button {
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 		border: none;
-		color: white;
+		color: black;
 		padding: 6px 8px;
 		text-align: center;
 		text-decoration: none;
@@ -110,9 +131,9 @@
 
 	#api-url {
 		border: none;
-		border-bottom: 2px solid lightcoral;
+		border-bottom: 2px solid #e8e6e6;
 		font-size: 2vw;
-		background-color: lightblue;
+		background-color: #e8e6e6;
 	}
 
 	#input-container {
@@ -126,25 +147,25 @@
 		position: relative;
 		top: 3vw;
 		width: fit-content;
-		color: whitesmoke;
+		color: black;
 	}
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1199px) {
 	* {
-		color: whitesmoke;
+		color: black;
 		font-size: 2vw;
 	}
 
 	body {
-		background-color: lightblue;
+		background-color: whitesmoke;
 		font-size: 20px;
 	}
 
 	.button {
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 		border: none;
-		color: white;
+		color: black;
 		padding: 6px 8px;
 		text-align: center;
 		text-decoration: none;
@@ -154,9 +175,9 @@
 
 	#api-url {
 		border: none;
-		border-bottom: 2px solid lightcoral;
+		border-bottom: 2px solid #e8e6e6;
 		font-size: 2vw;
-		background-color: lightblue;
+		background-color: #e8e6e6;
 	}
 
 	#input-container {
@@ -169,24 +190,24 @@
 		text-align: left;
 		position: relative;
 		width: fit-content;
-		color: whitesmoke;
+		color: black;
 	}
 }
 
 @media only screen and (min-width: 1200px) {
 	* {
-		color: whitesmoke;
+		color: black;
 	}
 
 	body {
-		background-color: lightblue;
+		background-color: whitesmoke;
 		font-size: 20px;
 	}
 
 	.button {
-		background-color: lightcoral;
+		background-color: #e8e6e6;
 		border: none;
-		color: white;
+		color: black;
 		padding: 7px 16px;
 		text-align: center;
 		text-decoration: none;
@@ -196,9 +217,9 @@
 
 	#api-url {
 		border: none;
-		border-bottom: 2px solid lightcoral;
+		border-bottom: 2px solid #e8e6e6;
 		font-size: 25px;
-		background-color: lightblue;
+		background-color: #e8e6e6;
 	}
 
 	#input-container {
@@ -211,6 +232,6 @@
 		text-align: left;
 		position: relative;
 		width: fit-content;
-		color: whitesmoke;
+		color: black;
 	}
 }
