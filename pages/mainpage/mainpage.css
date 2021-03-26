@@ -1,0 +1,722 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+    font-size: 1.5vw;
+	color: #cecece;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .nav-link {
+        font-size: 4vw;
+    }
+
+    .header {
+        font-size: 4.5vw;
+        text-align: center;
+        position: relative;
+        background-color: #e8e6e6;
+    }
+
+    .header #navigation {
+        height: auto;
+    }
+
+    #quick-links {
+        position: relative;
+        width: fit-content;
+        left: 8vw;
+        font-size: 3.5vw;
+        top: 5vw;
+    }
+
+    #actual-links {
+        text-align: left;
+        width: fit-content;
+        position: relative;
+        left: 2vw;
+        top: 6vw;
+        font-size: 3.5vw;
+    }
+
+    .header #summary {
+        top: 320px;
+    }
+
+    #unity-picture {
+        width: 25%;
+        position: relative;
+        top: 10vw;
+        left: 6vw;
+        height: auto;
+    }
+
+    #react-picture {
+        float: right;
+        width: 25%;
+        position: relative;
+        top: 5vw;
+        height: auto;
+        right: 5vw;
+    }
+
+    #typescript-picture {
+        float: right;
+        width: 12%;
+        height: auto;
+        position: relative;
+        bottom: 11vw;
+        left: 20vw;
+    }
+
+    #networking-picture {
+        width: 35%;
+        height: auto;
+        float: left;
+        position: relative;
+        top: 4vw;
+        left: 4vw;
+    }
+
+    #actual-summary {
+        text-align: left;
+        position: relative;
+        top: 3vw;
+        width: fit-content;
+        left: 10vw;
+        font-size: 3vw;
+    }
+
+    #self-portrait {
+        position: relative;
+        right: 6vw;
+        bottom: 5vw;
+        width: 45%;
+        height: auto;
+    }
+
+    #among-picture {
+        position: relative;
+        width: 40%;
+        height: auto;
+        top: 53vw;
+        left: 20vw;
+    }
+
+    #skyline-logo {
+        position: relative;
+        right: 5vw;
+        top: 19vw;
+        width: 30%;
+        height: auto;
+    }
+
+    #actual-links a {
+        color: black;
+    }
+
+    #learning-sum {
+        height: 9vw;
+        top: 15vw;
+    }
+
+    #learning-content {
+        position: relative;
+        top: 5vw;
+        text-align: left;
+        font-size: 3vw;
+        left: 15vw;
+        width: fit-content;
+    }
+
+    #cpp-picture {
+        position: relative;
+        right: 10vw;
+        bottom: 1vw;
+        width: 25%;
+        height: auto;
+    }
+
+    #cs-picture {
+        position: relative;
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        background-color: whitesmoke;
+        color: black;
+    }
+    .nav-link {
+        font-size: 3.5vw;
+    }
+
+    .header {
+        font-size: 5.5vw;
+        text-align: center;
+        position: relative;
+        background-color: #e8e6e6;
+    }
+
+    .header #navigation {
+        height: auto;
+    }
+
+    #quick-links {
+        position: relative;
+        width: fit-content;
+        left: 8vw;
+        font-size: 4.5vw;
+        top: 5vw;
+    }
+
+    #actual-links {
+        text-align: left;
+        width: fit-content;
+        position: relative;
+        left: 2vw;
+        top: 6vw;
+        font-size: 4.5vw;
+    }
+
+    .header #summary {
+        top: 320px;
+    }
+
+    #unity-picture {
+        width: 25%;
+        position: relative;
+        top: 10vw;
+        left: 6vw;
+        height: auto;
+    }
+
+    #react-picture {
+        float: right;
+        width: 25%;
+        position: relative;
+        top: 5vw;
+        height: auto;
+        right: 5vw;
+    }
+
+    #typescript-picture {
+        float: right;
+        width: 12%;
+        height: auto;
+        position: relative;
+        bottom: 11vw;
+        left: 20vw;
+    }
+
+    #networking-picture {
+        width: 35%;
+        height: auto;
+        float: left;
+        position: relative;
+        top: 4vw;
+        left: 4vw;
+    }
+
+    #actual-summary {
+        text-align: left;
+        position: relative;
+        top: 3vw;
+        width: fit-content;
+        left: 10vw;
+        font-size: 4vw;
+    }
+
+    #self-portrait {
+        position: relative;
+        right: 6vw;
+        bottom: 5vw;
+        width: 45%;
+        height: auto;
+    }
+
+    #among-picture {
+        position: relative;
+        width: 40%;
+        height: auto;
+        top: 60vw;
+        left: 20vw;
+    }
+
+    #skyline-logo {
+        position: relative;
+        right: 5vw;
+        top: 19vw;
+        width: 30%;
+        height: auto;
+    }
+
+    #actual-links a {
+        color: black;
+    }
+
+    #learning-sum {
+        height: 9vw;
+        top: 15vw;
+    }
+
+    #learning-content {
+        position: relative;
+        top: 5vw;
+        text-align: left;
+        font-size: 4vw;
+        left: 15vw;
+        width: fit-content;
+    }
+
+    #cpp-picture {
+        position: relative;
+        right: 10vw;
+        bottom: 1vw;
+        width: 25%;
+        height: auto;
+    }
+
+    #cs-picture {
+        position: relative;
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+        background-color: whitesmoke;
+        color: black;
+    }
+
+	.nav-link {
+        font-size: 3vw;
+    }
+
+    .header {
+        font-size: 3.5vw;
+        text-align: center;
+        position: relative;
+        background-color: #e8e6e6;
+    }
+
+    .header #navigation {
+        height: auto;
+    }
+
+    #quick-links {
+        position: relative;
+        width: fit-content;
+        left: 28vw;
+        font-size: 3vw;
+        top: 5vw;
+    }
+
+    #actual-links {
+        text-align: left;
+        width: fit-content;
+        position: relative;
+        left: 28vw;
+        top: 6vw;
+        font-size: 3vw;
+    }
+
+    .header #summary {
+        top: 320px;
+    }
+
+    #unity-picture {
+        width: 30%;
+        position: relative;
+        top: 10vw;
+        left: 8vw;
+        height: auto;
+    }
+
+    #react-picture {
+        float: right;
+        width: 25%;
+        position: relative;
+        top: 15vw;
+        height: auto;
+        right: 9vw;
+    }
+
+    #typescript-picture {
+        float: right;
+        width: 12%;
+        height: auto;
+        position: relative;
+        bottom: 5vw;
+        left: 14vw;
+    }
+
+    #networking-picture {
+        width: 25%;
+        height: auto;
+        float: left;
+        position: relative;
+        bottom: -8vw;
+        left: 4vw;
+    }
+
+    #actual-summary {
+        text-align: left;
+        position: relative;
+        top: 3vw;
+        width: fit-content;
+        left: 30vw;
+        font-size: 3vw;
+    }
+
+    #self-portrait {
+        position: relative;
+        right: 29vw;
+        bottom: 15vw;
+        width: 40%;
+        height: auto;
+    }
+
+    #among-picture {
+        position: relative;
+        width: 30%;
+        height: auto;
+        top: 60vw;
+        left: 50vw;
+    }
+
+    #skyline-logo {
+        position: relative;
+        right: 30vw;
+        top: 6vw;
+        width: 30%;
+        height: auto;
+    }
+
+    #actual-links a {
+        color: black;
+    }
+
+    #learning-sum {
+        height: 6vw;
+        top: 15vw;
+    }
+
+    #learning-content {
+        position: relative;
+        top: 5vw;
+        text-align: left;
+        font-size: 3vw;
+        left: 30vw;
+        width: fit-content;
+    }
+
+    #cpp-picture {
+        position: relative;
+        right: 20vw;
+        bottom: 20vw;
+        width: 15%;
+        height: auto;
+    }
+
+    #cs-picture {
+        position: relative;
+        width: 35%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+    body {
+        overflow-x: hidden;
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .header {
+        font-size: 3.5vw;
+        text-align: center;
+        position: relative;
+        background-color: #e8e6e6;
+    }
+
+    .header #navigation {
+        height: auto;
+    }
+
+    #quick-links {
+        position: relative;
+        width: fit-content;
+        left: 28vw;
+        font-size: 3vw;
+        top: 5vw;
+    }
+
+    #actual-links {
+        text-align: left;
+        width: fit-content;
+        position: relative;
+        left: 28vw;
+        top: 6vw;
+        font-size: 3vw;
+    }
+
+    .header #summary {
+        top: 320px;
+    }
+
+    #unity-picture {
+        width: 30%;
+        position: relative;
+        top: 10vw;
+        left: 8vw;
+        height: auto;
+    }
+
+    #react-picture {
+        float: right;
+        width: 25%;
+        position: relative;
+        top: 15vw;
+        height: auto;
+        right: 9vw;
+    }
+
+    #typescript-picture {
+        float: right;
+        width: 12%;
+        height: auto;
+        position: relative;
+        bottom: 5vw;
+        left: 14vw;
+    }
+
+    #networking-picture {
+        width: 25%;
+        height: auto;
+        float: left;
+        position: relative;
+        bottom: -8vw;
+        left: 4vw;
+    }
+
+    #actual-summary {
+        text-align: left;
+        position: relative;
+        top: 3vw;
+        width: fit-content;
+        left: 30vw;
+        font-size: 3vw;
+    }
+
+    #self-portrait {
+        position: relative;
+        right: 29vw;
+        bottom: 15vw;
+        width: 40%;
+        height: auto;
+    }
+
+    #among-picture {
+        position: relative;
+        width: 30%;
+        height: auto;
+        top: 60vw;
+        left: 50vw;
+    }
+
+    #skyline-logo {
+        position: relative;
+        right: 30vw;
+        top: 6vw;
+        width: 30%;
+        height: auto;
+    }
+
+    #actual-links a {
+        color: black;
+    }
+
+    #learning-sum {
+        height: 6vw;
+        top: 15vw;
+    }
+
+    #learning-content {
+        position: relative;
+        top: 5vw;
+        text-align: left;
+        font-size: 3vw;
+        left: 30vw;
+        width: fit-content;
+    }
+
+    #cpp-picture {
+        position: relative;
+        right: 20vw;
+        bottom: 20vw;
+        width: 15%;
+        height: auto;
+    }
+
+    #cs-picture {
+        position: relative;
+        width: 35%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        overflow-x: hidden;
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .header {
+        font-size: 2.5vw;
+        text-align: center;
+        position: relative;
+        background-color: #e8e6e6;
+    }
+
+    .header #navigation {
+        height: auto;
+    }
+
+    #quick-links {
+        position: relative;
+        width: fit-content;
+        left: 38vw;
+        font-size: 2vw;
+        top: 5vw;
+    }
+
+    #actual-links {
+        text-align: left;
+        width: fit-content;
+        position: relative;
+        left: 38vw;
+        top: 6vw;
+        font-size: 2vw;
+    }
+
+    .header #summary {
+        height: 10vw;
+        top: 320px;
+    }
+
+    #unity-picture {
+        width: 30%;
+        position: relative;
+        top: 10vw;
+        left: 2vw;
+        height: auto;
+    }
+
+    #react-picture {
+        float: right;
+        width: 25%;
+        position: relative;
+        top: 210px;
+        height: auto;
+        right: 4vw;
+    }
+
+    #typescript-picture {
+        float: right;
+        width: 12%;
+        height: auto;
+        position: relative;
+        bottom: 11vw;
+        left: 20vw;
+    }
+
+    #networking-picture {
+        width: 25%;
+        height: auto;
+        float: left;
+        position: relative;
+        bottom: 9vw;
+        left: 4vw;
+    }
+
+    #actual-summary {
+        text-align: left;
+        position: relative;
+        top: 3vw;
+        width: fit-content;
+        left: 30vw;
+        font-size: 2vw;
+    }
+
+    #self-portrait {
+        position: relative;
+        right: 29vw;
+        bottom: 15vw;
+        width: 20%;
+        height: auto;
+    }
+
+    #among-picture {
+        position: relative;
+        width: 30%;
+        height: auto;
+        top: 40vw;
+        left: 60vw;
+    }
+
+    #skyline-logo {
+        position: relative;
+        right: 20vw;
+        top: 4vw;
+    }
+
+    #actual-links a {
+        color: black;
+    }
+
+    #learning-sum {
+        height: 100px;
+        top: 10vw;
+    }
+
+    #learning-content {
+        position: relative;
+        top: 5vw;
+        text-align: left;
+        font-size: 2vw;
+        left: 30vw;
+        width: fit-content;
+    }
+
+    #cpp-picture {
+        position: relative;
+        right: 20vw;
+        bottom: 20vw;
+        width: 15%;
+        height: auto;
+    }
+
+    #cs-picture {
+        position: relative;
+        width: 35%;
+        height: auto;
+    }
+}
